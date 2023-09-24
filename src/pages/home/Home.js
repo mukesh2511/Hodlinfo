@@ -11,7 +11,9 @@ const Home = () => {
 
   useEffect(() => {
     const request = async () => {
-      const res = await axios.get("http://localhost:5000/api/trade");
+      const res = await axios.get(
+        "https://hodlinfo-ypa3.onrender.com/api/trade"
+      );
       setData(res.data);
     };
     request();
