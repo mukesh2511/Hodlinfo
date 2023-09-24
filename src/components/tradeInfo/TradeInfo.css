@@ -1,0 +1,88 @@
+.trade {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.trade .container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2e3241 !important;
+  padding: 10px;
+  border-radius: 6px;
+}
+.trade .container p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #2e3241 !important;
+}
+.container .no {
+  width: 12%;
+  background-color: #2e3241 !important;
+}
+.container .name {
+  width: 17%;
+  text-align: center;
+  background-color: #2e3241 !important;
+}
+.container .price {
+  width: 17%;
+  text-align: center;
+  background-color: #2e3241 !important;
+}
+.container .buy {
+  width: 30%;
+  text-align: center;
+  background-color: #2e3241 !important;
+}
+.container .diff {
+  width: 17%;
+  text-align: center;
+  background-color: #2e3241 !important;
+}
+.container .savings {
+  width: 17%;
+  text-align: center;
+  background-color: #2e3241 !important;
+}
+.container .name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  background-color: #2e3241 !important;
+}
+.container .name img {
+  width: 26px;
+  border-radius: 50%;
+  background-color: #2e3241 !important;
+}
+
+.container .name span {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #2e3241 !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .trade .container p {
+    font-size: 14px;
+  }
+  .container .name img {
+    width: 16px;
+  }
+  .container .name span {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .trade .container p {
+    font-size: 10px;
+  }
+  .container .name span {
+    font-size: 10px;
+  }
+}

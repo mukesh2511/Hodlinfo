@@ -1,0 +1,83 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  height: 90px;
+}
+.container {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  color: #6ccacb;
+  font-size: 24px;
+}
+.logo h1 {
+  font-weight: 500;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.btn {
+  border: none;
+  color: #fff;
+  background: #2e3241;
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.buttons button:nth-child(3) {
+  padding: 9px;
+}
+.last {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.last p {
+  color: #3dc6c1;
+  font-size: 16px;
+}
+.last .tele {
+  background: #3dc6c1;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 6px 12px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+@media only screen and (max-width: 992px) {
+  .buttons {
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    font-size: 16px;
+  }
+  .buttons {
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+  .btn {
+    font-size: 10px;
+  }
+  .last .tele {
+    font-size: 10px;
+  }
+}
